@@ -298,4 +298,29 @@ hr
        text-align: center;
    }
 
+   #section_A
+   {
+       display: flex;
+       flex-direction: column;
+   }
+
+   #section_A div
+   {
+       margin: 3%;
+       font-size: 20px;
+   }
+
+   #section_B
+   {
+       display: flex;
+       flex-direction: column;
+   }
+
+   #section_B div
+   {
+       margin: 3%;
+       width: 90%;
+       font-size: 20px;
+   }
+
 }
