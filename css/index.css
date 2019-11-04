@@ -258,9 +258,48 @@ hr
         display: none;
     }
 
+    #section_A p
+    {
+        font-size: 80%;
+    }
+
+    #section_B p
+    {
+        font-size: 80%;
+    }
+    
+
 }
 
 @media (max-width: 500px)
 {
+    nav
+    {
+        flex-direction: column;
+    }
 
+    nav .link
+    {
+        border-bottom: 1px solid gray;
+        width: 90%;
+        text-align: center;
+        padding: 2%;
+    }
+
+    #section_A
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #section_A div
+    {
+        margin-bottom: 10%;
+    }
+
+    #section_B
+    {
+        flex-direction: column;
+        /*flex-wrap: wrap;*/
+    }
 }
