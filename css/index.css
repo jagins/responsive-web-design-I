@@ -229,10 +229,38 @@ hr
 /*CSS for mobile*/
 @media (max-width: 800px)
 {
+    nav
+    {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    nav break
+    {
+        flex-basis: 100%;
+
+    }
+
+    nav a
+    {
+        margin: 2%;
+    }
+
+    .slogan
+    {
+        margin-top: 5%;
+    }
+
+    .title img
+    {
+        display: none;
+    }
 
 }
 
 @media (max-width: 500px)
 {
-    
+
 }
