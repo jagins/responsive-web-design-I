@@ -277,6 +277,8 @@ hr
    {
        display: flex;
        flex-direction: column;
+       justify-content: center;
+       align-items: center;
    }
 
    .link:nth-child(1) {order:1;}
@@ -286,4 +288,14 @@ hr
    .link:nth-child(5) {order:5;}
    .link:nth-child(6) {order:6;}
    .link:nth-child(7) {order:7;}
- }
+
+   nav a
+   {
+       border-bottom: 1px solid gray;
+       width: 90%;
+       padding: 3%;
+       margin: 1%;
+       text-align: center;
+   }
+
+}
