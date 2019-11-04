@@ -260,12 +260,13 @@ hr
 
     #section_A p
     {
-        font-size: 80%;
+        font-size: 20px;
+        width: 90%; 
     }
 
     #section_B p
     {
-        font-size: 80%;
+        font-size: 20px;
     }
     
 
@@ -308,6 +309,7 @@ hr
    {
        margin: 3%;
        font-size: 20px;
+       width: 90%;
    }
 
    #section_B
@@ -318,9 +320,8 @@ hr
 
    #section_B div
    {
-       margin: 3%;
-       width: 90%;
+       margin: 5%;
        font-size: 20px;
+       width: 90%;
    }
-
 }
